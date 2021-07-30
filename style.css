@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #E1E1E3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #090E11;
+}
+
+.content{
+display: flex;
+
+}
+
+.contatos{
+    height: 740px;
+    width: 420px;
+    background-color: #131C21;
+    margin-left: auto;
+    border-right: solid 0.01px rgba(128, 128, 128, 0.295);
+    margin-top: 19px;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: #2A2F32;
+    display: flex;
+    align-items: center;
+}
+
+.header.-conversar{
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.img-contato{
+    border-radius: 50%;
+    width: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    
+}
+
+
+.conversas{
+    margin-right: auto;
+    width: 980px;
+    height: 740px;
+    background-color: #131C21;
+    margin-top: 19px;
+}
+
+.main-text{
+    line-height: 21px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.main-text.-status{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.712);
+
+}
+
+.wapper-text{
+    display: flex;
+    flex-direction: column;
+}
