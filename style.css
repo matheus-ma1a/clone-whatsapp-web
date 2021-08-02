@@ -12,7 +12,6 @@ body{
 
 .content{
 display: flex;
-
 }
 
 .contatos{
@@ -33,21 +32,9 @@ display: flex;
 }
 
 .header.-conversar{
-
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
-
-.img-contato{
-    border-radius: 50%;
-    width: 40px;
-    margin-left: 15px;
-    margin-right: 15px;
-    
-    
-}
-
 
 .conversas{
     margin-right: auto;
@@ -55,6 +42,37 @@ display: flex;
     height: 740px;
     background-color: #131C21;
     margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wapper-footer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: #1E2428;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 15px;
+}
+
+.wapper-footer input {
+    background-color: #33383B;
+    border: none;
+    border-radius: 20px;
+    width: 80%;
+    height: 70%;
+    padding-left: 15px;
+    font-size: 17px;
+    
+}
+
+.img-contato{
+    border-radius: 50%;
+    width: 40px;
+    margin-left: 15px;
+    margin-right: 15px;    
 }
 
 .main-text{
